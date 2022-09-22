@@ -219,6 +219,20 @@
             }
 
         });
+        $(".thumb").change(function() {
+
+            if (this.files && this.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function(e) {
+                    $('.thumb-preview').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(this.files[0]);
+            }
+
+            });
+        
         $('#reeed').click(function() {
                     $('.usercount').empty();
                     $('.usercount').html(0);

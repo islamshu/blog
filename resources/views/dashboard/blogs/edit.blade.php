@@ -31,13 +31,23 @@
                                         @csrf
                                         @method('put')
                                         <div class="row">
-                                            <div class="col-md-7">
+                                            <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label for="email"> صورة التدوينة:</label>
-                                                    <input type="file" class="form-control image" name="image"  id="">
+                                                    <label for="email"> واجهة التدوينة:</label>
+                                                    <input type="file" class="form-control thumb" name="thumb" required id="">
                                                 </div>
                                                 <div class="form-group">
-                                                    <img src="{{ asset('uploads/'.$blog->image) }}" style="width: 100px"
+                                                    <img src="{{ asset('uploads/'.$item->thumb) }}" style="width: 100px"
+                                                        class="img-thumbnail thumb-preview" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="email"> صورة التدوينة:</label>
+                                                    <input type="file" class="form-control image" name="image" required id="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <img src="{{ asset('uploads/'.$item->image) }}" style="width: 100px"
                                                         class="img-thumbnail image-preview" alt="">
                                                 </div>
                                             </div>

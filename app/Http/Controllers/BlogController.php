@@ -43,6 +43,7 @@ class BlogController extends Controller
         $blog = new Blog();
         $blog->title = $request->title;
         $blog->image = $request->image->store('blogs');
+        $blog->thumb = $request->thumb->store('thumb_blogs');
         $blog->description = $request->description;
         $blog->save();
         return redirect()->route('blogs.index')->with(['success'=>'تم الاضافة بنجاح']);
@@ -88,6 +89,10 @@ class BlogController extends Controller
         $blog->title = $request->title;
         if($request->image != null){
             $blog->image = $request->image->store('blogs');
+
+        }
+        if($request->thumb != null){
+            $blog->thumb = $request->thumb->store('thumb_blogs');
 
         }
 
