@@ -1,0 +1,284 @@
+@import url(main.css);
+body {
+    direction: ltr !important;
+}
+
+
+/* .justify-content-start{
+    justify-content: end !important;
+} */
+
+.justify-content-end {
+    justify-content: start !important;
+}
+
+.text-end {
+    text-align: start !important;
+}
+
+.text-start {
+    text-align: end !important;
+}
+
+.upperBar {
+    direction: ltr !important;
+}
+
+.upperBar .notifications {
+    /* direction: ltr; */
+    /* right: unset !important;
+    left: 0; */
+}
+
+nav {
+    direction: ltr;
+}
+
+.bookNow {
+    direction: ltr;
+}
+
+.Packages h2 {
+    text-align: left !important;
+}
+
+.pack-item .pack-hedear .rival {
+    right: unset;
+    left: 0;
+}
+
+.Packages .pack-body {
+    direction: ltr;
+}
+
+.Packages .pack-body ul li span {
+    margin-right: unset;
+    margin-left: 15px;
+}
+
+.hotels h2,
+.hotels p,
+.specialOffers h2,
+.specialOffers p {
+    text-align: start;
+}
+
+.specialOffers .specialOffers-item .specialOffers-item-title {
+    direction: ltr;
+}
+
+.opinions h2,
+.opinions ul,
+.opinions p {
+    text-align: start;
+}
+
+.opinions ul {
+    justify-content: start;
+}
+
+.opinions .opinon-item {
+    direction: ltr;
+}
+
+footer {
+    direction: ltr;
+}
+
+.pageContent {
+    direction: ltr;
+}
+
+.pageContent .img-box::before {
+    left: unset !important;
+    right: 5%;
+}
+
+.headingTxt .img-1 {
+    margin-left: unset;
+    margin-right: 20px;
+}
+
+.pageContent .txtSide h3 {
+    margin-left: 5px;
+}
+
+.packageContent {
+    direction: ltr
+}
+
+.package-info .btns a {
+    margin-right: unset;
+    margin-left: 10px;
+}
+
+.OffersContent {
+    direction: ltr;
+}
+
+.Offer-body .fa-map-marker-alt {
+    margin-left: unset;
+    margin-right: 30px;
+}
+
+.OffersContent .Offer-body .body-title h4 {
+    margin-left: unset;
+    margin-right: 10px;
+}
+
+.register-content .register-card {
+    direction: ltr;
+}
+
+.signIn-content .signIn-card {
+    direction: ltr;
+}
+
+.ms-2 {
+    margin-right: .5rem!important;
+    margin-left: unset !important;
+}
+
+.Qestions-conatnt {
+    direction: ltr;
+}
+
+.accordion-button::after {
+    margin-right: unset !important;
+    margin-left: auto !important;
+}
+
+.recruitment-conatnt {
+    direction: ltr;
+}
+
+.recruitment-conatnt .recruitment-item ul li {
+    justify-content: start;
+}
+
+.recruitment-conatnt .recruitment-item ul li .img-box {
+    margin-left: unset;
+    margin-right: 30px;
+}
+
+.recruitment-conatnt .img-bag {
+    left: unset;
+    right: 24px !important;
+}
+
+.recruitment-conatnt .fa-paperclip {
+    margin-left: unset;
+    margin-right: 30px !important;
+}
+
+.hotel-conatnt .page-header,
+.hotel-conatnt .postion {
+    direction: ltr;
+}
+
+.hotel-conatnt .page-header .header-item .fa-comment-alt {
+    margin-left: unset;
+    margin-right: 20px;
+}
+
+.hotel-conatnt .gallary {
+    direction: ltr;
+}
+
+.nav-tabs,
+.tab-content>.tab-pane p {
+    direction: ltr;
+}
+
+.hotel-conatnt .amenities {
+    direction: ltr;
+}
+
+.hotel-conatnt .rooms {
+    direction: ltr;
+}
+
+.hotel-conatnt .rooms form .btn-search {
+    margin-right: unset;
+    margin-left: 10px;
+}
+
+.hotel-conatnt .room {
+    direction: ltr;
+}
+
+.hotel-conatnt .rates .Ratestop {
+    direction: ltr;
+}
+
+.hotel-conatnt .rates .ratesTitle img {
+    margin-left: unset;
+    margin-right: 30px;
+}
+
+.booking-content .booking-body {
+    direction: ltr;
+}
+
+.booking-content .booking-body .bookingSummary .roomItem .img-box {
+    margin-left: unset;
+    margin-right: 50px;
+}
+
+.booking-content .booking-body .bookingSummary .roomInfo li span {
+    margin-left: 20px;
+    margin-right: unset;
+}
+
+.booking-content .booking-body .payMethods .payMethodItem span,
+.booking-content .booking-body .payMethods .payMethodItem img {
+    margin-left: 10px;
+    margin-right: unset;
+}
+
+.booking-content .booking-body .payMethods .payMethodItem {
+    margin-left: unset;
+    margin-right: 50px;
+}
+
+.bank-content {
+    direction: ltr;
+}
+
+.bank-content .bankRow span {
+    margin-left: unset;
+    margin-right: 100px;
+}
+
+.pay-content {
+    direction: ltr;
+}
+
+.pay-content .bookingSummary .roomItem .img-box {
+    margin-left: unset;
+    margin-right: 50px;
+}
+
+.pay-content .bookingSummary .roomInfo li span {
+    margin-right: unset;
+    margin-left: 20px;
+}
+
+.payBank-content {
+    direction: ltr;
+}
+
+.payBank-content .titlePage h4,
+.payBank-content .payBankInfo .payBankInfoRow span {
+    margin-left: unset;
+    margin-right: 100px;
+}
+
+.payMasterCard-content {
+    direction: ltr;
+}
+
+.payMasterCard-content .titlePage img {
+    margin-left: unset;
+    margin-right: 30px;
+}
