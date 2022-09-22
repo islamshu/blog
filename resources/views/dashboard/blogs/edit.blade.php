@@ -34,7 +34,7 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="email"> واجهة التدوينة:</label>
-                                                    <input type="file" class="form-control thumb" name="thumb" required id="">
+                                                    <input type="file" class="form-control thumb" name="thumb"  id="">
                                                 </div>
                                                 <div class="form-group">
                                                     <img src="{{ asset('uploads/'.$blog->thumb) }}" style="width: 100px"
@@ -44,7 +44,7 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="email"> صورة التدوينة:</label>
-                                                    <input type="file" class="form-control image" name="image" required id="">
+                                                    <input type="file" class="form-control image" name="image"  id="">
                                                 </div>
                                                 <div class="form-group">
                                                     <img src="{{ asset('uploads/'.$blog->image) }}" style="width: 100px"
