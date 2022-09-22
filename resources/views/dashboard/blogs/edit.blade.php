@@ -37,7 +37,7 @@
                                                     <input type="file" class="form-control thumb" name="thumb" required id="">
                                                 </div>
                                                 <div class="form-group">
-                                                    <img src="{{ asset('uploads/'.$item->thumb) }}" style="width: 100px"
+                                                    <img src="{{ asset('uploads/'.$blog->thumb) }}" style="width: 100px"
                                                         class="img-thumbnail thumb-preview" alt="">
                                                 </div>
                                             </div>
@@ -47,7 +47,7 @@
                                                     <input type="file" class="form-control image" name="image" required id="">
                                                 </div>
                                                 <div class="form-group">
-                                                    <img src="{{ asset('uploads/'.$item->image) }}" style="width: 100px"
+                                                    <img src="{{ asset('uploads/'.$blog->image) }}" style="width: 100px"
                                                         class="img-thumbnail image-preview" alt="">
                                                 </div>
                                             </div>
