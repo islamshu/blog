@@ -81,7 +81,6 @@ class BlogController extends Controller
      */
     public function update(Request $request, Blog $blog)
     {
-        dd($request->all());
         $request->validate([
             'title'=>'required',
             'description'=>'required'
@@ -94,11 +93,11 @@ class BlogController extends Controller
         }
         if($request->thumb != null){
             $blog->thumb = $request->thumb->store('thumb_blogs');
-
         }
 
         $blog->description = $request->description;
         $blog->save();
+        
         return redirect()->back()->with(['success'=>'تم التعديل بنجاح']);
     }
 
