@@ -1,27 +1,28 @@
 @import url(main.css);
-body {
+
+body{
     direction: ltr !important;
 }
-
 
 /* .justify-content-start{
     justify-content: end !important;
 } */
 
-.justify-content-end {
+.justify-content-end{
     justify-content: start !important;
 }
 
-.text-end {
+.text-end{
     text-align: start !important;
 }
 
-.text-start {
+.text-start{
     text-align: end !important;
 }
 
-.upperBar {
+.upperBar{
     direction: ltr !important;
+
 }
 
 .upperBar .notifications {
@@ -30,255 +31,251 @@ body {
     left: 0; */
 }
 
-nav {
+nav{
     direction: ltr;
 }
 
-.bookNow {
+.bookNow{
     direction: ltr;
+
 }
 
-.Packages h2 {
+.Packages h2{
     text-align: left !important;
 }
 
-.pack-item .pack-hedear .rival {
+.pack-item .pack-hedear .rival{
     right: unset;
     left: 0;
 }
 
-.Packages .pack-body {
+.Packages .pack-body{
     direction: ltr;
 }
 
-.Packages .pack-body ul li span {
-    margin-right: unset;
-    margin-left: 15px;
+.Packages .pack-body ul li span{
+    margin-right:unset;
+    margin-left:15px;
 }
 
-.hotels h2,
-.hotels p,
-.specialOffers h2,
-.specialOffers p {
+.hotels h2,.hotels p,.specialOffers h2,.specialOffers p{
     text-align: start;
 }
 
-.specialOffers .specialOffers-item .specialOffers-item-title {
+.specialOffers .specialOffers-item .specialOffers-item-title{
     direction: ltr;
 }
 
-.opinions h2,
-.opinions ul,
-.opinions p {
+.opinions h2,.opinions ul,.opinions p{
     text-align: start;
 }
 
-.opinions ul {
+.opinions ul{
     justify-content: start;
 }
 
-.opinions .opinon-item {
+.opinions .opinon-item{
     direction: ltr;
 }
 
-footer {
+footer{
     direction: ltr;
 }
 
-.pageContent {
+
+.pageContent{
     direction: ltr;
 }
 
-.pageContent .img-box::before {
-    left: unset !important;
+.pageContent .img-box::before{
+    left:unset !important;
     right: 5%;
 }
 
-.headingTxt .img-1 {
-    margin-left: unset;
+.headingTxt .img-1{
+    margin-left:unset;
     margin-right: 20px;
 }
 
-.pageContent .txtSide h3 {
+.pageContent .txtSide h3{
     margin-left: 5px;
 }
 
-.packageContent {
+
+.packageContent{
     direction: ltr
 }
 
-.package-info .btns a {
+.package-info .btns a{
     margin-right: unset;
     margin-left: 10px;
 }
 
-.OffersContent {
+.OffersContent{
     direction: ltr;
 }
 
-.Offer-body .fa-map-marker-alt {
-    margin-left: unset;
+.Offer-body .fa-map-marker-alt{
+    margin-left:unset;
     margin-right: 30px;
 }
 
-.OffersContent .Offer-body .body-title h4 {
-    margin-left: unset;
+.OffersContent .Offer-body .body-title h4{
+    margin-left:unset;
     margin-right: 10px;
 }
 
-.register-content .register-card {
+
+.register-content .register-card{
     direction: ltr;
 }
 
-.signIn-content .signIn-card {
+.signIn-content .signIn-card{
     direction: ltr;
 }
 
-.ms-2 {
+.ms-2{
     margin-right: .5rem!important;
-    margin-left: unset !important;
+    margin-left:unset !important;
 }
 
-.Qestions-conatnt {
+.Qestions-conatnt{
     direction: ltr;
 }
 
-.accordion-button::after {
+.accordion-button::after{
     margin-right: unset !important;
-    margin-left: auto !important;
+    margin-left:auto !important;
 }
 
-.recruitment-conatnt {
+.recruitment-conatnt{
     direction: ltr;
 }
 
-.recruitment-conatnt .recruitment-item ul li {
+.recruitment-conatnt .recruitment-item ul li{
     justify-content: start;
 }
 
-.recruitment-conatnt .recruitment-item ul li .img-box {
+.recruitment-conatnt .recruitment-item ul li .img-box{
     margin-left: unset;
     margin-right: 30px;
 }
 
-.recruitment-conatnt .img-bag {
+.recruitment-conatnt .img-bag{
     left: unset;
     right: 24px !important;
 }
 
-.recruitment-conatnt .fa-paperclip {
-    margin-left: unset;
+.recruitment-conatnt .fa-paperclip{
+    margin-left:unset;
     margin-right: 30px !important;
 }
 
-.hotel-conatnt .page-header,
-.hotel-conatnt .postion {
+.hotel-conatnt .page-header,.hotel-conatnt .postion{
     direction: ltr;
 }
 
-.hotel-conatnt .page-header .header-item .fa-comment-alt {
+.hotel-conatnt .page-header .header-item .fa-comment-alt{
     margin-left: unset;
     margin-right: 20px;
 }
 
-.hotel-conatnt .gallary {
+.hotel-conatnt .gallary{
     direction: ltr;
 }
 
-.nav-tabs,
-.tab-content>.tab-pane p {
+.nav-tabs,.tab-content>.tab-pane p{
     direction: ltr;
 }
 
-.hotel-conatnt .amenities {
+.hotel-conatnt .amenities{
     direction: ltr;
 }
 
-.hotel-conatnt .rooms {
+.hotel-conatnt .rooms{
     direction: ltr;
 }
 
-.hotel-conatnt .rooms form .btn-search {
-    margin-right: unset;
+.hotel-conatnt .rooms form .btn-search{
+    margin-right:unset;
     margin-left: 10px;
 }
 
-.hotel-conatnt .room {
+.hotel-conatnt .room{
     direction: ltr;
 }
 
-.hotel-conatnt .rates .Ratestop {
+.hotel-conatnt .rates .Ratestop{
     direction: ltr;
 }
 
-.hotel-conatnt .rates .ratesTitle img {
-    margin-left: unset;
+.hotel-conatnt .rates .ratesTitle img{
+    margin-left:unset;
     margin-right: 30px;
 }
 
-.booking-content .booking-body {
+.booking-content .booking-body{
     direction: ltr;
 }
 
-.booking-content .booking-body .bookingSummary .roomItem .img-box {
-    margin-left: unset;
+.booking-content .booking-body .bookingSummary .roomItem .img-box{
+    margin-left:unset;
+    margin-right:50px;
+}
+
+.booking-content .booking-body .bookingSummary .roomInfo li span{
+    margin-left:20px;
+    margin-right:unset;
+}
+
+.booking-content .booking-body .payMethods .payMethodItem span,.booking-content .booking-body .payMethods .payMethodItem img{
+    margin-left:10px;
+    margin-right:unset;
+}
+
+.booking-content .booking-body .payMethods .payMethodItem{
+    margin-left:unset;
     margin-right: 50px;
 }
 
-.booking-content .booking-body .bookingSummary .roomInfo li span {
-    margin-left: 20px;
-    margin-right: unset;
-}
-
-.booking-content .booking-body .payMethods .payMethodItem span,
-.booking-content .booking-body .payMethods .payMethodItem img {
-    margin-left: 10px;
-    margin-right: unset;
-}
-
-.booking-content .booking-body .payMethods .payMethodItem {
-    margin-left: unset;
-    margin-right: 50px;
-}
-
-.bank-content {
+.bank-content{
     direction: ltr;
 }
 
-.bank-content .bankRow span {
+.bank-content .bankRow span{
     margin-left: unset;
     margin-right: 100px;
 }
 
-.pay-content {
+.pay-content{
     direction: ltr;
 }
 
-.pay-content .bookingSummary .roomItem .img-box {
-    margin-left: unset;
+.pay-content .bookingSummary .roomItem .img-box{
+    margin-left:unset ;
     margin-right: 50px;
 }
 
-.pay-content .bookingSummary .roomInfo li span {
+.pay-content .bookingSummary .roomInfo li span{
     margin-right: unset;
     margin-left: 20px;
 }
 
-.payBank-content {
+.payBank-content{
     direction: ltr;
 }
 
-.payBank-content .titlePage h4,
-.payBank-content .payBankInfo .payBankInfoRow span {
+.payBank-content .titlePage h4,.payBank-content .payBankInfo .payBankInfoRow span{
     margin-left: unset;
     margin-right: 100px;
 }
 
-.payMasterCard-content {
+.payMasterCard-content{
     direction: ltr;
 }
 
-.payMasterCard-content .titlePage img {
+.payMasterCard-content .titlePage img{
     margin-left: unset;
     margin-right: 30px;
+
 }

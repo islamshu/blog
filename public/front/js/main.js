@@ -98,7 +98,7 @@ $('document').ready(function(){
 
 
 
-    if($(this).scrollTop() > $('.ourValue').offset().top -100){
+    if($(this).scrollTop() > $('.ourValue').offset().top -200){
         $('.presntege').each(function(){
             $(this).animate({
                 width:$(this).data('range')+'%'
@@ -180,7 +180,7 @@ $(window).on("load",function(){
 $('.collapse .navbar-nav li a').click(function(){
 
     $('html,body').animate({
-        scrollTop:$("#"+$(this).data('scroll')).offset().top -120
+        scrollTop:$("#"+$(this).data('scroll')).offset().top -280
     },700)
 
 })

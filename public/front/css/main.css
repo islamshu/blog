@@ -286,7 +286,7 @@ nav {
 }
 
 header {
-    height: 100vh;
+    height: 85vh;
     direction: rtl;
     display: flex;
     justify-content: start;
@@ -390,7 +390,7 @@ header .img-back-3 {
     position: relative;
     margin-bottom: 160px;
     direction: rtl;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .features h2 {
@@ -1234,7 +1234,7 @@ footer .footer-soial {
     text-align: center;
     border-radius: 50%;
     background-color: var(--secondClor);
-    margin-left: 5px;
+    margin-left: 9px;
 }
 
 .footer-soial .soial-icons a .fa-facebook,
@@ -1451,10 +1451,11 @@ footer .footer-soial {
 
 .maqal-content .img-maqal {
     width: 100%;
-    height: 600px;
+    height: 500px;
+    margin: auto;
     margin-bottom: 30px;
     margin-top: 70px;
-position: relative;
+    position: relative;
 }
 
 .maqal-content .img-maqal img {
@@ -1548,7 +1549,7 @@ position: relative;
 .aboutUs-content .about-item p {
     text-align: right;
     color: var(--mainColor);
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -1646,6 +1647,8 @@ position: relative;
 
     header .btns a{
         margin-bottom: 10px;
+        width: 170px;
+        padding: 10px 20px;
     }
 
 
@@ -1672,6 +1675,7 @@ position: relative;
     }
     .features{
         margin-bottom: 50px;
+        padding-top: 0;
     }
     .contact p{
         margin-bottom: 20px;
@@ -1714,8 +1718,22 @@ position: relative;
         margin-bottom: 5px;
     }
 
+    .nav-pills{
+
+    }
+
+    .nav-pills li{
+        width: 48%;
+        display: block;
+        margin: .5%;
+        
+    }
+
     .ourWork .nav-pills .nav-link{
-        width: 210px;
+        /* width: 210px; */
+        width: 100%;
+        font-size: 12px;
+        padding: 10px 20px;
     }
 
 
@@ -1723,6 +1741,11 @@ position: relative;
         text-align: center !important;
         right: unset !important;
 
+    }
+
+
+    .ourClients{
+        margin-top: 80px;
     }
 
 
@@ -1768,6 +1791,14 @@ position: relative;
     }
 
 
+    .maqal-content h2 {
+        font-size: 28px;
+    }
+
+
+
+
+
     footer{
         text-align: center;
     }
@@ -1792,6 +1823,11 @@ position: relative;
 
     footer .footer-col p{
         margin-bottom: 20px;
+    }
+
+
+    footer .footer-col p span{
+        display: block;
     }
 
 }
@@ -1857,6 +1893,12 @@ position: relative;
 
     footer .col-lg-6{
         justify-content: center !important;
+    }
+
+
+
+    footer .footer-col p span{
+        display: block;
     }
 
 
@@ -1939,3 +1981,122 @@ position: relative;
 }
 
 
+.feat-content{
+    position: relative;
+}
+
+.feat-content .row{
+    justify-content: center;
+}
+
+.feat-content .img-feat{
+    max-width: 40%;
+    margin: 50px auto;
+}
+
+.feat-content .img-feat img{
+    width: 100%;
+    height: 100%;
+}
+
+.feat-content h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #f4b728;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.feat-content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 2;
+    color: #372561;
+    direction: rtl;
+}
+
+.feat-content p.last{
+    color: #f4b728;
+    text-align: center;
+    font-size: 22px;
+}
+
+.feat-content .feat-item{
+    text-align: center;
+    margin-bottom: 15px;
+}
+ 
+.feat-content .feat-item .img-box{
+    width: 80px;
+    margin: auto;
+    margin-bottom: 0px;
+}
+ 
+.feat-content .feat-item .img-box img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.feat-content .feat-item h3{
+    color: #372561;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+ 
+.feat-content .feat-item p{
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFA726;
+    text-transform: capitalize;
+}
+
+.feat-content .demand-btn{
+    padding: 8px 36px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #f4b728;
+    display: block;
+    margin: auto;
+    width: 180px;
+    margin-top: 50px;
+
+}
+
+
+.feat-content .img-back {
+    position: absolute;
+    left: 23%;
+    bottom: 56%;
+    width: 200px;
+    z-index: -1;
+
+}
+
+.feat-content .img-back-1 {
+    position: absolute;
+    left: 2%;
+    top: 7%;
+    width: 50px;
+    z-index: -1;
+}
+
+
+.feat-content .img-back-2 {
+    position: absolute;
+    right: 15%;
+    top: 18%;
+    width: 27px;
+    z-index: -1;
+}
+
+.feat-content .img-back-3 {
+    position: absolute;
+    left: 75%;
+    bottom: 32%;
+    width: 50px;
+    z-index: -1;
+
+}

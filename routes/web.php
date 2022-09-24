@@ -16,8 +16,27 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/blogs', 'App\Http\Controllers\HomeController@blogs');
+Route::get('/blogs', 'App\Http\Controllers\HomeController@blogs')->name('fornt.blogs');
 Route::get('/blog/{id}', 'App\Http\Controllers\HomeController@blog')->name('blog');
+Route::get('design',function(){
+    return view('design');
+})->name('design');
+Route::get('soialMedia',function(){
+    return view('soialMedia');
+})->name('soialMedia');
+Route::get('marketing',function(){
+    return view('marketing');
+})->name('marketing');
+Route::get('Consulting',function(){
+    return view('Consulting');
+})->name('Consulting');
+Route::get('Photography',function(){
+    return view('Photography');
+})->name('Photography');
+
+
+
+
 
 Route::group(['middleware' => ['auth'], 'prefix' => 'dashboard'], function () {
     Route::get('/','App\Http\Controllers\HomeController@dashboard')->name('dashboard');

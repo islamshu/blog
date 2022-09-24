@@ -22,7 +22,7 @@
 <body>
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="{{asset('front/images/logo.png')}}" alt="" /></a>
+      <a class="navbar-brand" href="index.html"><img src="{{ asset('front/images/logo.png') }}" alt="" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -45,7 +45,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" data-scroll="" href="/blogs">المدونة</a>
+            <a class="nav-link" data-scroll="" href="{{ route('fornt.blogs') }}">المدونة</a>
           </li>
 
           <li class="nav-item">
@@ -53,7 +53,7 @@
           </li>
         </ul>
 
-        <a href="" class="btn getService">اطلب الخدمة</a>
+        <a href="https://forms.monday.com/forms/96471629b5c89f652efd60eea03ef544?r=use1" class="btn getService">اطلب خدمتك</a>
 
       </div>
     </div>
@@ -67,7 +67,7 @@
         <div class="col-lg-6 col-12 col-sm-12">
           <div class="footer-col wow animate__fadeInUp">
             <div class="footer-img">
-              <img src="{{asset('front/images/logo.png')}}" alt="" />
+              <a href="/"><img src="{{ asset('front/images/logo.png') }}" alt="" /></a>
             </div>
             <p class="copyRights">جميع الحقوق محفوظة &copy; 2022</p>
           </div>
@@ -75,15 +75,14 @@
 
         <div class="col-lg-6 col-12 col-sm-12 d-flex justify-content-end align-items-center">
           <div class="footer-col wow animate__fadeInUp">
-            <p class="mb-2 text-capitalize"><span>التسـويــــق بشـغــــف</span> Bombasticmedia.net</p>
+            <p class="mb-2"><span>التسـويــــق بشـغــــف</span>bombastic.ps</p>
             <div class="footer-soial">
-              <p class="mail ms-1">info@bombasticmedia.net</p>
+              <p class="mail ms-1">info@bombastic.ps</p>
 
               <div class="soial-icons">
                 <a href="https://www.facebook.com/bombasticps"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.instagram.com/bombastic.ps/"><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-youtube"></i></a>
-                <a href=""><i class="fab fa-behance"></i></a>
+                <a href="https://www.behance.net/bombasticps"><i class="fab fa-behance"></i></a>
                 <a href=""><i class="fal fa-envelope"></i></a>
                 <a href="https://www.linkedin.com/in/bombastic-media-62a5b8228/"><i class="fab fa-linkedin-in"></i></a>
 
