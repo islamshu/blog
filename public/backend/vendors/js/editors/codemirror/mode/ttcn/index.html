@@ -1,7 +1,7 @@
 <!doctype html>
 
 <title>CodeMirror: TTCN mode</title>
-<meta charset="utf-8"/>
+<meta charset="utf-8" />
 <link rel=stylesheet href="../../doc/docs.css">
 
 <link rel="stylesheet" href="../../lib/codemirror.css">
@@ -14,18 +14,19 @@
     }
 </style>
 <div id=nav>
-    <a href="http://codemirror.net"><h1>CodeMirror</h1>
+    <a href="http://codemirror.net">
+        <h1>CodeMirror</h1>
         <img id=logo src="../../doc/logo.png">
     </a>
 
     <ul>
-        <li><a href="../../index.html">Home</a>
-        <li><a href="../../doc/manual.html">Manual</a>
-        <li><a href="https://github.com/codemirror/codemirror">Code</a>
+        <li><a href="../..//">Home</a>
+            <li><a href="../../doc/manual.html">Manual</a>
+                <li><a href="https://github.com/codemirror/codemirror">Code</a>
     </ul>
     <ul>
-        <li><a href="../index.html">Language modes</a>
-        <li><a class=active href="http://en.wikipedia.org/wiki/TTCN">TTCN</a>
+        <li><a href="..//">Language modes</a>
+            <li><a class=active href="http://en.wikipedia.org/wiki/TTCN">TTCN</a>
     </ul>
 </div>
 <article>
@@ -94,19 +95,19 @@ module Templates {
         </textarea>
     </div>
 
-    <script> 
-      var ttcnEditor = CodeMirror.fromTextArea(document.getElementById("ttcn-code"), {
-        lineNumbers: true,
-        matchBrackets: true,
-        mode: "text/x-ttcn"
-      });
-      ttcnEditor.setSize(600, 860);
-      var mac = CodeMirror.keyMap.default == CodeMirror.keyMap.macDefault;
-      CodeMirror.keyMap.default[(mac ? "Cmd" : "Ctrl") + "-Space"] = "autocomplete";
+    <script>
+        var ttcnEditor = CodeMirror.fromTextArea(document.getElementById("ttcn-code"), {
+            lineNumbers: true,
+            matchBrackets: true,
+            mode: "text/x-ttcn"
+        });
+        ttcnEditor.setSize(600, 860);
+        var mac = CodeMirror.keyMap.default == CodeMirror.keyMap.macDefault;
+        CodeMirror.keyMap.default[(mac ? "Cmd" : "Ctrl") + "-Space"] = "autocomplete";
     </script>
     <br/>
-    <p><strong>Language:</strong> Testing and Test Control Notation
-        (<a href="http://en.wikipedia.org/wiki/TTCN">TTCN</a>)
+    <p><strong>Language:</strong> Testing and Test Control Notation (
+        <a href="http://en.wikipedia.org/wiki/TTCN">TTCN</a>)
     </p>
     <p><strong>MIME types defined:</strong> <code>text/x-ttcn,
         text/x-ttcn3, text/x-ttcnpp</code>.</p>
@@ -115,4 +116,3 @@ module Templates {
     </a>.</p>
     <p>Coded by Asmelash Tsegay Gebretsadkan </p>
 </article>
-

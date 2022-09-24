@@ -1,7 +1,7 @@
-define("ace/snippets/ruby",["require","exports","module"], function(require, exports, module) {
-"use strict";
+define("ace/snippets/ruby", ["require", "exports", "module"], function(require, exports, module) {
+    "use strict";
 
-exports.snippetText = "########################################\n\
+    exports.snippetText = "########################################\n\
 # Ruby snippets - for Rails, see below #\n\
 ########################################\n\
 \n\
@@ -620,7 +620,7 @@ snippet defindex\n\
 		@${1:model_class_name} = ${2:ModelClassName}.all\n\
 \n\
 		respond_to do |wants|\n\
-			wants.html # index.html.erb\n\
+			wants.html # /.erb\n\
 			wants.xml  { render :xml => @$1s }\n\
 		end\n\
 	end${3}\n\
@@ -930,6 +930,6 @@ snippet aft\n\
 		${2}\n\
 	end\n\
 ";
-exports.scope = "ruby";
+    exports.scope = "ruby";
 
 });

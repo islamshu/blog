@@ -7,7 +7,7 @@
     Author: PIXINVENT
     Author URL: http://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
-$(document).ready(function(){
+$(document).ready(function() {
 
     var defaultData = [{
         text: 'Parent 1',
@@ -77,7 +77,7 @@ $(document).ready(function(){
     }, {
         text: 'Parent 4',
         icon: 'ft-download-cloud',
-        href: '/index.html',
+        href: '//',
         tags: ['19'],
         selected: true
     }, {
