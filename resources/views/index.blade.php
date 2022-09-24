@@ -7,8 +7,8 @@
     <h1 class="wow animate__fadeInUpBig "data-wow-delay=".5s">شريك أعمالك الجديد في التصميم والتسويــــق...</h1>
     <p class="wow animate__fadeInUp "data-wow-delay="1s">رواد في الحلول الابداعية</p>
     <div class="btns wow fadeInLeft"data-wow-delay="1.2s">
-      <a href="" class="btn">تعرف على المزيد</a>
-      <a href="" class="btn">تواصل معنا</a>
+      <a href="{{ route('about') }}" class="btn">تعرف على المزيد</a>
+      <a href="https://wa.link/ov9tzx" class="btn">تواصل معنا</a>
     </div>
     </div>
   </div>
