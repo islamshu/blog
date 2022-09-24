@@ -447,59 +447,26 @@
     <div class="container">
       <h2 class="wow animate__fadeInUp">المدونة</h2>
       <div class="row">
+        @foreach (App\Models\Blog::orderby('id','desc')->take(3)->get() as $item)
         <div class="col-lg-4">
-          <div class="blog-item wow animate__fadeInUp">
-            <a href="">
-              <div class="img">
-                <img src="{{asset('front/images/blog.jpg')}}" alt="" />
-              </div>
-              <div class="item-body">
-                <h3>كيف تختار افضل منتج</h3>
-                <p>
-                  تلتزم وكالة بومباستك ميديا بتزويدك بافضل الخدمات التي
-                  يحتاجها عملك والتي ستنقل
-                </p>
-                <span>20/12/2020</span>
-              </div>
-            </a>
-          </div>
-        </div>
 
-        <div class="col-lg-4">
-          <div class="blog-item wow animate__fadeInUp">
-            <a href="">
-              <div class="img">
-                <img src="{{asset('front/images/blog.jpg')}}" alt="" />
-              </div>
-              <div class="item-body">
-                <h3>كيف تختار افضل منتج</h3>
-                <p>
-                  تلتزم وكالة بومباستك ميديا بتزويدك بافضل الخدمات التي
-                  يحتاجها عملك والتي ستنقل
-                </p>
-                <span>20/12/2020</span>
-              </div>
-            </a>
-          </div>
-        </div>
+            <div class="blog-item wow animate__fadeInUp">
+                <a href="{{ route('blog', $item->id) }}">
+                    <div class="img">
+                        <img src="{{ asset('uploads/' . $item->thumb) }}" alt="" />
+                    </div>
+                    <div class="item-body">
+                        <h3>{!! Illuminate\Support\Str::limit($item->title, 20) !!} </h3>
+                        <p>
+                            {!! Illuminate\Support\Str::limit($item->description, 50) !!}
+                        </p>
 
-        <div class="col-lg-4">
-          <div class="blog-item wow animate__fadeInUp">
-            <a href="">
-              <div class="img">
-                <img src="{{asset('front/images/blog.jpg')}}" alt="" />
-              </div>
-              <div class="item-body">
-                <h3>كيف تختار افضل منتج</h3>
-                <p>
-                  تلتزم وكالة بومباستك ميديا بتزويدك بافضل الخدمات التي
-                  يحتاجها عملك والتي ستنقل
-                </p>
-                <span>20/12/2020</span>
-              </div>
-            </a>
-          </div>
+                        <span>{{ \Carbon\Carbon::parse($item->created_at)->format('Y/m/d') }}</span>
+                    </div>
+                </a>
+            </div>
         </div>
+    @endforeach
       </div>
 
       <a href="" class="btn btn-more wow animate__fadeInUp">المزيد</a>
