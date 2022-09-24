@@ -33,6 +33,9 @@ Route::get('Consulting',function(){
 Route::get('Photography',function(){
     return view('Photography');
 })->name('Photography');
+Route::get('about',function(){
+    return view('about');
+})->name('about');
 
 
 

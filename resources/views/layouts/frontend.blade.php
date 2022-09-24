@@ -41,7 +41,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" data-scroll="about" href="#">من نحن</a>
+            <a class="nav-link" data-scroll="{{ route('about') }}" href="#">من نحن</a>
           </li>
 
           <li class="nav-item">
