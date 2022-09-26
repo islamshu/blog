@@ -8,7 +8,7 @@
     <div class="container">
 
         <div class="img-feat wow animate__fadeInUp">
-            <img src="{{asset('front/{{asset('front/images/innerFeatures/Layer 868.png')}}')}}" alt="">
+            <img src="{{asset('front/images/innerFeatures/Layer 868.png')}}" alt="">
         </div>
 
         <h2>التصميــم</h2>
