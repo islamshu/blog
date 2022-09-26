@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="{{asset('front/css/animate.css')}}">
   <link rel="stylesheet" href="{{asset('front/css/hover-min.css')}}" />
   <link rel="stylesheet" href="{{asset('front/css/main.css')}}" />
-  <title>شريك أعمالك الجديد في التصميم والتسويق BombasticMedia</title>
+  <title> @yield('title') | شريك أعمالك الجديد في التصميم والتسويق BombasticMedia </title>
 </head>
 
 <body>

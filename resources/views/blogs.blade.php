@@ -1,4 +1,7 @@
 @extends('layouts.frontend')
+@section('title')
+    المدونة 
+@endsection
 @section('content')
     <div class="blog">
         <div class="container">

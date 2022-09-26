@@ -1,4 +1,7 @@
 @extends('layouts.frontend')
+@section('title')
+    سوشيال ميديا 
+@endsection
 @section('content')
     
 

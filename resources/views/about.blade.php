@@ -1,4 +1,7 @@
 @extends('layouts.frontend')
+@section('title')
+    من نحن
+@endsection
 @section('content')
 <div class="aboutUs-content">
 

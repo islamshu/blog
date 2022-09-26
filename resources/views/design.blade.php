@@ -1,4 +1,7 @@
 @extends('layouts.frontend')
+@section('title')
+    التصميم 
+@endsection
 @section('content')
 <div class="feat-content wow animate__fadeInUp">
 
