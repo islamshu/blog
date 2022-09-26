@@ -33,11 +33,11 @@
             <a class="nav-link active" aria-current="page" href="/">الرئيسية</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-scroll="ourServices"  href="#">خدماتنا</a>
+            <a class="nav-link" data-scroll="ourServices"  href="/">خدماتنا</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" data-scroll="ourWork" href="#">اعمالنا</a>
+            <a class="nav-link" data-scroll="ourWork" href="/">اعمالنا</a>
           </li>
 
           <li class="nav-item">
