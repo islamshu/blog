@@ -1,4 +1,4 @@
-@extends('layouts.frontend')
+@extends('layouts.frontend'){{asset
 @section('title')
     سوشيال ميديا 
 @endsection
@@ -10,7 +10,7 @@
     <div class="container">
 
         <div class="img-feat wow animate__fadeInUp">
-            <img src="{{asset('front/{{asset('front/images/innerFeatures/Layer 740.png')}}')}}" alt="">
+            <img src="{{asset('front/images/innerFeatures/Layer 740.png')}}" alt="">
         </div>
 
         <h2>سوشيــال ميديــا</h2>
@@ -91,10 +91,10 @@
 
 
 
-    <img src="{{asset('front/{{asset('front/images/circle.png')}}')}}" class="img-back anmation1" alt="" />
-    <img src="{{asset('front/{{asset('front/images/Rectangle 3 copy@2x.png')}}')}}" class="img-back-1 anmation3" alt="" />
-    <img src="{{asset('front/{{asset('front/images/Rectangle 3@2x.png')}}')}}" class="img-back-2 anmation2" alt="" />
-    <img src="{{asset('front/{{asset('front/images/Triangle 1@2x.png')}}')}}" class="img-back-3 anmation4" alt="" />
+    <img src="{{asset('front/images/circle.png')}}" class="img-back anmation1" alt="" />
+    <img src="{{asset('front/images/Rectangle 3 copy@2x.png')}}" class="img-back-1 anmation3" alt="" />
+    <img src="{{asset('front/images/Rectangle 3@2x.png')}}" class="img-back-2 anmation2" alt="" />
+    <img src="{{asset('front/images/Triangle 1@2x.png')}}" class="img-back-3 anmation4" alt="" />
 
 
   </div>
