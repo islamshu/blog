@@ -20,7 +20,7 @@
 </header>
 
 <main>
-  <div class="features">
+  <div class="features" id="features">
     <div class="container">
       <h2 class="wow animate__fadeInUp">المميزات والخدمات</h2>
       <h4 class="wow animate__fadeInUp">كيف يمكن لبومباستك مساعدتك!</h4>
@@ -101,7 +101,9 @@
     <img src="{{asset('front/images/Triangle 1@2x.png')}}" class="img-back-2 anmation4" alt="" />
   </div>
 
-  <h2 class="whyUsH2 wow animate__fadeInUp" >لماذا بومباستك ؟!</h2>
+  <h2 class="whyUsH2 wow animate__fadeInUp" >لماذا بومباستك </h2>
+
+  
   <div class="whyUs" id="ourServices">
     <div class="container">
       <div class="row">
@@ -114,7 +116,7 @@
 
         <div class="col-lg-4">
           <div class="number-item">
-            <p class="d-inline-block">+</p> <span data-top="5000" class="num">0</span>
+            <p class="d-inline-block">+</p> <span class="a" data-top="10" class="num">0</span><p class="d-inline-block">K</p>
             <h5>تصميم سوشيال ميديا</h5>
           </div>
         </div>
@@ -158,12 +160,12 @@
           <div class="fields">
             <div class="field">
               <h5 class="wow animate__fadeInUp" data-wow-delay="1s">التصوير</h5>
-              <span class="amount"><span class="presntege" data-range="50"></span></span>
+              <span class="amount"><span class="presntege" data-range="40"></span></span>
             </div>
 
             <div class="field">
               <h5 class="wow animate__fadeInUp" data-wow-delay="1s">التصميم</h5>
-              <span class="amount"><span class="presntege" data-range="40"></span></span>
+              <span class="amount"><span class="presntege" data-range="60"></span></span>
             </div>
 
             <div class="field">
@@ -195,10 +197,9 @@
   <div class="ourWork" id="ourWork">
     <div class="container">
       <h2 class="wow animate__fadeInUp">اعمالنا</h2>
-      <p class="wow animate__fadeInUp">
-        تلتزم وكالة بومباستك ميديا بتزويدك بأفضل الخدمات التي يحتاجها عملك والتي ستنقل أعمالك الى المستوى التالي
-      </p>
-
+        <p class="wow animate__fadeInUp">
+          تلتزم وكالة بومباستك ميديا بتزويدك بأفضل الخدمات التي يحتاجها عملك والتي ستنقل أعمالك الى المستوى التالي.
+        </p>
       <ul class="nav nav-pills mb-3 wow animate__fadeInUp" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="pills-soial-tab" data-bs-toggle="pill" data-bs-target="#pills-soial"
@@ -381,9 +382,9 @@
   <div class="ourClients" id="ourClents">
     <div class="container">
       <h2 class="wow animate__fadeInUp">عملائنا</h2>
-      <p class="wow animate__fadeInUp">
-        تفخر شركة بومباستك بأنها من خلال فترة عمله الطويلة قد كسبت شريحة واسعة من العملاء في الوطن العربي و تجاوزنا الحدود  مبرهنين بذلك على موثوقية أنظمة الشركة وكفائة عملها و في عدة لغات ومن أهم العملاء:
-      </p>
+        <p class="wow animate__fadeInUp">
+          تفخر شركة بومباستك بأنها من خلال فترة عملها الطويلة قد كسبت شريحة واسعة من العملاء في الوطن العربي و تجاوزنا الحدود  مبرهنين بذلك على موثوقية أنظمة الشركة وكفائة عملها و في عدة لغات.
+        </p>
       <div class="row">
         <div class="col-lg-3">
           <div class="item wow animate__fadeInUp" data-wow-delay=".7s" >

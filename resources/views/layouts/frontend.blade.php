@@ -83,7 +83,7 @@
                 <a href="https://www.facebook.com/bombasticps"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.instagram.com/bombastic.ps/"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.behance.net/bombasticps"><i class="fab fa-behance"></i></a>
-                <a href=""><i class="fal fa-envelope"></i></a>
+                <a href="mailto:info@bombastic.ps"><i class="fal fa-envelope"></i></a>
                 <a href="https://www.linkedin.com/in/bombastic-media-62a5b8228/"><i class="fab fa-linkedin-in"></i></a>
 
               </div>
