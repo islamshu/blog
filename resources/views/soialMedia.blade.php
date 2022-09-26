@@ -1,4 +1,4 @@
-@extends('layouts.frontend'){{asset
+@extends('layouts.frontend')
 @section('title')
     سوشيال ميديا 
 @endsection
