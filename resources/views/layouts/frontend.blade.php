@@ -16,7 +16,11 @@
   <link rel="stylesheet" href="{{asset('front/css/animate.css')}}">
   <link rel="stylesheet" href="{{asset('front/css/hover-min.css')}}" />
   <link rel="stylesheet" href="{{asset('front/css/main.css')}}" />
-  <title> @yield('title') | شريك أعمالك الجديد في التصميم والتسويق BombasticMedia </title>
+  @if(Route::is('home') )
+  شريك أعمالك الجديد في التصميم والتسويق BombasticMedia
+  @else
+  <title> @yield('title')  </title>
+  @endif
 </head>
 
 <body>

@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('home');
 Route::get('/blogs', 'App\Http\Controllers\HomeController@blogs')->name('fornt.blogs');
 Route::get('/blog/{id}', 'App\Http\Controllers\HomeController@blog')->name('blog');
 Route::get('design',function(){
@@ -51,4 +51,4 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'dashboard'], function () {
 Route::get('login','App\Http\Controllers\HomeController@login_dashboard')->name('login_dashboard');
 Route::post('login_dashboard','App\Http\Controllers\HomeController@login_dashboard_post')->name('login_dashboard_post');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
