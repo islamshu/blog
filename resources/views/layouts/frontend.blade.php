@@ -34,9 +34,36 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          @if(!Route::is('home') )
+
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/">الرئيسية</a>
           </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="features"  href="/#features">خدماتنا</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="ourWork" href="/#ourWork">اعمالنا</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="about" href="{{ route('about') }}">من نحن</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="" href="{{ route('fornt.blogs') }}">المدونة</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="contact" href="/#contact">اتصل بنا</a>
+          </li>
+          @else
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">الرئيسية</a>
+          </li>
+          
           <li class="nav-item">
             <a class="nav-link" data-scroll="features"  href="/#">خدماتنا</a>
           </li>
@@ -56,6 +83,9 @@
           <li class="nav-item">
             <a class="nav-link" data-scroll="contact" href="/#">اتصل بنا</a>
           </li>
+          @endif
+
+
         </ul>
 
         <a href="https://forms.monday.com/forms/96471629b5c89f652efd60eea03ef544?r=use1" class="btn getService">اطلب خدمتك</a>
