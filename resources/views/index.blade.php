@@ -100,7 +100,7 @@
     <img src="{{asset('front/images/Triangle 1@2x.png')}}" class="img-back-2 anmation4" alt="" />
   </div>
 
-  <h2 class="whyUsH2 wow animate__fadeInUp" >لماذا بومباستك </h2>
+  <h2 class="whyUsH2 wow animate__fadeInUp" >لماذا بومباستك ؟ </h2>
 
   
   <div class="whyUs" id="ourServices">
