@@ -17,7 +17,8 @@
   <link rel="stylesheet" href="{{asset('front/css/hover-min.css')}}" />
   <link rel="stylesheet" href="{{asset('front/css/main.css')}}" />
   @if(Route::is('home') )
-  شريك أعمالك الجديد في التصميم والتسويق BombasticMedia
+
+  <title>  شريك أعمالك الجديد في التصميم والتسويق BombasticMedia</title>
   @else
   <title> @yield('title')  </title>
   @endif
