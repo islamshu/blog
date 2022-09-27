@@ -38,7 +38,7 @@
             <a class="nav-link active" aria-current="page" href="/">الرئيسية</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-scroll="ourServices"  href="/#">خدماتنا</a>
+            <a class="nav-link" data-scroll="features"  href="/#">خدماتنا</a>
           </li>
 
           <li class="nav-item">
@@ -54,7 +54,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" data-scroll="contact" href="#">اتصل بنا</a>
+            <a class="nav-link" data-scroll="contact" href="/#">اتصل بنا</a>
           </li>
         </ul>
 
