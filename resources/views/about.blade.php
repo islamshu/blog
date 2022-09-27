@@ -7,11 +7,11 @@
 
 
     <div class="container">
+      <h2 class="text-center">من نحن</h2>
 
       <div class="row">
-        <div class="col-lg-6 col-12 col-sm-12 d-flex align-items-end flex-column">
+        <div class="col-lg-6 col-12 col-sm-12 d-flex align-items-end flex-column order-1 order-lg-0">
           <div class="about-item text-end">
-            <h2 class="">من نحن</h2>
             <h3>حكايتنا</h3>
             <h4>إذا كنت تريــــد العمـــل بشغـــف فانضم إلينا</h4>
             <p>لسنا مجرد وكالتك التسويقية فحسب، بل نحن رفاقك الدائمون معك في تحقيق أهداف أعمالك التجارية.</p>
@@ -24,7 +24,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6 col-12 col-sm-12 d-flex align-items-end flex-column">
+        <div class="col-lg-6 col-12 col-sm-12 d-flex align-items-end flex-column  order-0 order-lg-1 mb-sm-4">
           <div class="img-box">
             <img src="{{asset('front/images/about-2.png')}}" alt="">
           </div>
@@ -32,13 +32,13 @@
 
 
 
-        <div class="col-lg-6 col-12 col-sm-12 d-flex order-1 order-lg-0">
+        <div class="col-lg-6 col-12 col-sm-12 d-flex order-2 order-lg-2 mb-sm-4">
           <div class="img-box">
             <img src="{{asset('front/images/about-1.png')}}" alt="">
           </div>
         </div>
 
-        <div class="col-lg-6 col-12 col-sm-12 d-flex order-0 order-lg-1 ">
+        <div class="col-lg-6 col-12 col-sm-12 d-flex order-3 order-lg-3">
           <div class="about-item text-end">
             <h3>اهدافنا</h3>
             <h4>الأفضل بلا منازع في الوطن .. خبراء التسويق والجرافيك</h4>
@@ -53,6 +53,9 @@
 
 
       </div>
+
+
+    </div>
 
 
     </div>

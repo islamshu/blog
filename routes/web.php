@@ -18,6 +18,10 @@ Route::get('/', function () {
 })->name('home');
 Route::get('/blogs', 'App\Http\Controllers\HomeController@blogs')->name('fornt.blogs');
 Route::get('/blog/{id}', 'App\Http\Controllers\HomeController@blog')->name('blog');
+Route::get('/test', function(){
+    return view('test');
+});
+
 Route::get('design',function(){
     return view('design');
 })->name('design');

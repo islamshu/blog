@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Tajawal:wght@200;300;400;500;700&display=swap'); */
 
+
 /* 
 
 Developer :Mohamed Alserhi
@@ -22,36 +23,28 @@ Libs :OwlCarousel2 , Wow.js , Animate.css ,Fontawesome
     --greenColor: #33d16b;
 }
 
-
 @font-face {
     font-family: "DINArabi";
     src: url(../fonts/alfont_com_AlFont_com_DINArabic-Medium.ttf);
-
 }
-
 
 @font-face {
     font-family: "DINArabibold";
     src: url(../fonts/alfont_com_AlFont_com_DINArabic-Black.ttf);
-
 }
 
+.font-bold {
+    font-family: "f-DINArabibold";
+}
 
-    .font-bold{
-        font-family: "f-DINArabibold";
-
-    }
-  
-    .font-normal {
-      font-family: "f-DINArabi";
-     }
+.font-normal {
+    font-family: "f-DINArabi";
+}
 
 body {
     /* font-family: 'Cairo', sans-serif; */
     /* font-family: 'Tajawal', sans-serif; */
     font-family: "DINArabi";
-
-
 }
 
 a {
@@ -94,7 +87,6 @@ span {
     margin-bottom: 0;
 }
 
-
 .form-control:focus {
     border-color: unset !important;
     box-shadow: unset !important;
@@ -103,7 +95,6 @@ span {
 .clear-fix {
     clear: both;
 }
-
 
 .site-shadow {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -119,7 +110,6 @@ span {
 
 .upperBar .upperItem {
     position: relative;
-
 }
 
 .upperBar .upperItem .fa-bell-on {
@@ -195,11 +185,11 @@ span {
     font-size: 18px;
 }
 
+
 /* ----------------- End UpperBar----------------- */
 
+
 /* ----------------- Satrt NavBar----------------- */
-
-
 
 nav {
     direction: rtl;
@@ -209,12 +199,10 @@ nav {
     height: 73px;
 }
 
-
 .navbar-brand img {
     width: 100%;
     height: 100%;
 }
-
 
 .navbar-nav .nav-item {
     margin: 0 15px 0 15px;
@@ -227,15 +215,11 @@ nav {
     font-weight: 700;
     text-transform: capitalize;
     transition: all .5s ease-in;
-
 }
-
 
 .navbar-nav .nav-link:hover {
     color: var(--secondClor) !important;
-
 }
-
 
 .navbar-nav .nav-link.active {
     color: var(--secondClor) !important;
@@ -250,7 +234,6 @@ nav {
     height: 2px;
     width: 63px;
     background-color: var(--secondClor);
-
 }
 
 .navbar .sign-btn {
@@ -264,14 +247,13 @@ nav {
 .navbar .sign-btn:hover {
     transform: scale(1.1);
     color: white !important;
-
 }
 
 .navbar-toggler:focus {
     box-shadow: unset !important
 }
 
-.getService{
+.getService {
     background-color: var(--secondClor);
     padding: 10px 20px;
     color: white;
@@ -281,7 +263,7 @@ nav {
     margin-right: 15px;
 }
 
-.getService:hover{
+.getService:hover {
     background-color: #372561;
 }
 
@@ -294,7 +276,7 @@ header {
     position: relative;
 }
 
-.innerHeader{
+.innerHeader {
     margin-right: 100px;
 }
 
@@ -316,7 +298,6 @@ header h1 {
     color: var(--mainColor);
     margin-bottom: 35px;
     max-width: 90%;
-    
 }
 
 header p {
@@ -339,15 +320,11 @@ header .btns a {
 
 header .btns a:first-child {
     background-color: var(--secondClor);
-
 }
 
 header .btns a:last-child {
     background-color: var(--greenColor);
-
-
 }
-
 
 header .img-back {
     position: absolute;
@@ -363,9 +340,7 @@ header .img-back-1 {
     top: 20%;
     width: 38px;
     z-index: -1;
-
 }
-
 
 header .img-back-2 {
     position: absolute;
@@ -381,10 +356,7 @@ header .img-back-3 {
     top: 10%;
     width: 36px;
     z-index: -1;
-
 }
-
-
 
 .features {
     position: relative;
@@ -399,7 +371,6 @@ header .img-back-3 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 10px;
-
 }
 
 .features h4 {
@@ -409,7 +380,6 @@ header .img-back-3 {
     font-weight: 500;
     margin-bottom: 60px;
     letter-spacing: 1px;
-
 }
 
 .feat-item {
@@ -442,14 +412,9 @@ header .img-back-3 {
     font-size: 18px;
 }
 
-.feat-item a:hover{
+.feat-item a:hover {
     background-color: var(--secondClor);
 }
-
-
-
-
-
 
 .features .img-back {
     position: absolute;
@@ -457,7 +422,6 @@ header .img-back-3 {
     bottom: -11%;
     width: 200px;
     z-index: -1;
-
 }
 
 .features .img-back-1 {
@@ -466,9 +430,7 @@ header .img-back-3 {
     top: 47%;
     width: 50px;
     z-index: -1;
-
 }
-
 
 .features .img-back-2 {
     position: absolute;
@@ -484,14 +446,7 @@ header .img-back-3 {
     bottom: 0%;
     width: 50px;
     z-index: -1;
-
 }
-
-
-
-
-
-
 
 .whyUs {
     margin-top: 50px;
@@ -519,7 +474,7 @@ header .img-back-3 {
     color: var(--mainColor);
 }
 
-.whyUs .number-item p{
+.whyUs .number-item p {
     font-size: 70px;
     color: var(--mainColor);
     font-weight: 300;
@@ -532,15 +487,12 @@ header .img-back-3 {
     font-size: 18px;
 }
 
-
-
 .whyUs .img-back {
     position: absolute;
     left: 26%;
     bottom: -81%;
     width: 200px;
     z-index: -1;
-
 }
 
 .whyUs .img-back-1 {
@@ -549,9 +501,7 @@ header .img-back-3 {
     top: 47%;
     width: 50px;
     z-index: -1;
-
 }
-
 
 .whyUs .img-back-2 {
     position: absolute;
@@ -567,13 +517,7 @@ header .img-back-3 {
     bottom: 0%;
     width: 50px;
     z-index: -1;
-
 }
-
-
-
-
-
 
 .contact {
     text-align: center;
@@ -582,7 +526,6 @@ header .img-back-3 {
     border: 1px solid #ccc;
     padding: 50px;
     border-radius: 5px;
-
 }
 
 .contact h3 {
@@ -606,7 +549,7 @@ header .img-back-3 {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.contact a:hover{
+.contact a:hover {
     background-color: var(--secondClor);
 }
 
@@ -618,7 +561,6 @@ header .img-back-3 {
     padding: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
-
 }
 
 .ourValue h2 {
@@ -658,7 +600,6 @@ header .img-back-3 {
     background-color: #e1e1e1;
     border-radius: 30px;
     overflow: hidden;
-
 }
 
 .ourValue .fields .field .presntege {
@@ -670,7 +611,6 @@ header .img-back-3 {
     background-color: var(--secondClor);
     transform: skew(-15deg, 0deg);
 }
-
 
 .chart1 {
     width: 100%;
@@ -705,7 +645,6 @@ header .img-back-3 {
     width: 25px;
     height: 25px;
     background-color: var(--secondClor);
-
 }
 
 .chartLebel .notmalClients {
@@ -716,8 +655,6 @@ header .img-back-3 {
     display: block;
     text-align: right;
     padding-right: 33px;
-
-
 }
 
 .chartLebel .notmalClients::before {
@@ -728,12 +665,7 @@ header .img-back-3 {
     width: 25px;
     height: 25px;
     background-color: var(--mainColor);
-
 }
-
-
-
-
 
 .ourValue .img-back {
     position: absolute;
@@ -741,7 +673,6 @@ header .img-back-3 {
     bottom: 4%;
     width: 200px;
     z-index: -1;
-
 }
 
 .ourValue .img-back-1 {
@@ -750,9 +681,7 @@ header .img-back-3 {
     top: 13%;
     width: 50px;
     z-index: -1;
-
 }
-
 
 .ourValue .img-back-2 {
     position: absolute;
@@ -771,8 +700,6 @@ header .img-back-3 {
 }
 
 
-
-
 /* ourWork */
 
 .ourWork {
@@ -788,7 +715,6 @@ header .img-back-3 {
     font-weight: 700;
     margin-bottom: 20px;
 }
-
 
 .ourWork p {
     text-align: center;
@@ -810,7 +736,6 @@ header .img-back-3 {
     margin: 10px;
     color: white;
     border-radius: 30px;
-
 }
 
 .nav-pills .nav-link.active,
@@ -833,7 +758,7 @@ header .img-back-3 {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.ourWork .tab-content .btn-more:hover{
+.ourWork .tab-content .btn-more:hover {
     background-color: var(--secondClor);
 }
 
@@ -846,18 +771,12 @@ header .img-back-3 {
     height: 100%;
 }
 
-
-
-
-
-
 .ourWork .img-back {
     position: absolute;
     right: 26%;
     bottom: -11%;
     width: 200px;
     z-index: -1;
-
 }
 
 .ourWork .img-back-1 {
@@ -866,9 +785,7 @@ header .img-back-3 {
     top: 47%;
     width: 50px;
     z-index: -1;
-
 }
-
 
 .ourWork .img-back-2 {
     position: absolute;
@@ -884,14 +801,7 @@ header .img-back-3 {
     bottom: 0%;
     width: 50px;
     z-index: -1;
-
 }
-
-
-
-
-
-
 
 .ourClients {
     direction: rtl;
@@ -905,7 +815,6 @@ header .img-back-3 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
-
 }
 
 .ourClients p {
@@ -936,16 +845,12 @@ header .img-back-3 {
     height: 100%;
 }
 
-
-
-
 .ourClients .img-back {
     position: absolute;
     right: 26%;
     bottom: -11%;
     width: 200px;
     z-index: -1;
-
 }
 
 .ourClients .img-back-1 {
@@ -954,9 +859,7 @@ header .img-back-3 {
     top: 47%;
     width: 50px;
     z-index: -1;
-
 }
-
 
 .ourClients .img-back-2 {
     position: absolute;
@@ -972,11 +875,7 @@ header .img-back-3 {
     bottom: 0%;
     width: 50px;
     z-index: -1;
-
 }
-
-
-
 
 .blog {
     direction: rtl;
@@ -990,7 +889,6 @@ header .img-back-3 {
     font-weight: 700;
     margin-bottom: 50px;
     text-align: center;
-
 }
 
 .blog .blog-item {
@@ -1003,7 +901,6 @@ header .img-back-3 {
 .blog .blog-item .img {
     width: 100%;
     margin-bottom: 20px;
-
 }
 
 .blog .blog-item .img img {
@@ -1012,7 +909,6 @@ header .img-back-3 {
 
 .blog .item-body {
     padding: 15px;
-
 }
 
 .blog .blog-item h3 {
@@ -1048,16 +944,15 @@ header .img-back-3 {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.blog .btn-more:hover{
+.blog .btn-more:hover {
     background-color: var(--secondClor);
 }
 
-.blog a:hover{
+.blog a:hover {
     transform: unset !important;
-
 }
 
-.blog .row{
+.blog .row {
     max-width: 85%;
     margin: auto;
 }
@@ -1098,10 +993,7 @@ header .img-back-3 {
     float: right;
     margin: .5%;
     margin-bottom: 10px;
-
-
 }
-
 
 .contact-form form .form-input .form-control {
     height: 45px;
@@ -1119,10 +1011,9 @@ header .img-back-3 {
     width: 100%;
     margin-top: 15px;
     height: 45px;
-
 }
 
-.contact-form form button:hover{
+.contact-form form button:hover {
     background-color: var(--mainColor) !important;
     transform: scale(1) !important;
 }
@@ -1142,14 +1033,11 @@ header .img-back-3 {
     width: 100%;
 }
 
-
-
 .contact-form .img-back {
     position: absolute;
     right: 26%;
     bottom: -11%;
     width: 200px;
-
 }
 
 .contact-form .img-back-1 {
@@ -1157,9 +1045,7 @@ header .img-back-3 {
     left: 26%;
     top: 47%;
     width: 50px;
-
 }
-
 
 .contact-form .img-back-2 {
     position: absolute;
@@ -1173,10 +1059,7 @@ header .img-back-3 {
     left: 27%;
     bottom: 0%;
     width: 50px;
-
 }
-
-
 
 footer {
     margin-top: 100px;
@@ -1200,7 +1083,6 @@ footer .footer-col p {
     text-transform: lowercase;
     letter-spacing: 3px;
 }
-
 
 footer .footer-col p.copyRights {
     font-weight: 600 !important;
@@ -1242,23 +1124,14 @@ footer .footer-soial {
 .footer-soial .soial-icons a .fa-youtube,
 .footer-soial .soial-icons a .fa-behance,
 .footer-soial .soial-icons a .fa-envelope,
-.footer-soial .soial-icons a .fa-linkedin-in
- {
+.footer-soial .soial-icons a .fa-linkedin-in {
     color: white;
     font-size: 18px;
 }
 
 .footer-col .mail {
     letter-spacing: 1px;
-
 }
-
-
-
-
-
-
-
 
 .anmation1 {
     /* position: absolute;
@@ -1269,53 +1142,42 @@ footer .footer-soial {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-duration: 2s;
-
 }
 
 @keyframes go {
     10% {
         transform: translateY(0px);
     }
-
     100% {
         transform: translateY(40px);
     }
 }
 
-
 .anmation2 {
-
     animation-name: goY;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-duration: 10s;
-
 }
 
 @keyframes goY {
     10% {
         transform: translateX(0px);
     }
-
     20% {
         transform: translateX(40px);
     }
-
     50% {
         transform: translateX(100px);
     }
-
     70% {
         transform: translateX(140px);
     }
-
     100% {
         transform: translateX(180px);
     }
-
 }
-
 
 .anmation3 {
     animation-name: goAround;
@@ -1323,26 +1185,21 @@ footer .footer-soial {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-duration: 20s;
-
 }
 
 @keyframes goAround {
     10% {
         transform: translateX(0px)translateY(60px)
     }
-
     30% {
         transform: translateX(60px) translateY(0px)
     }
-
     50% {
         transform: translateX(100px)translateY(160px)
     }
-
     70% {
         transform: translateX(150px) translateY(0px)
     }
-
     100% {
         transform: translateX(200px) translateY(260px)
     }
@@ -1354,33 +1211,25 @@ footer .footer-soial {
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-duration: 20s;
-
 }
 
 @keyframes goAround {
     10% {
         transform: translateX(0px)translateY(60px)
     }
-
     30% {
         transform: translateX(60px) translateY(0px)
     }
-
     50% {
         transform: translateX(100px)translateY(160px)
     }
-
     70% {
         transform: translateX(150px) translateY(0px)
     }
-
     100% {
         transform: translateX(200px) translateY(260px)
     }
 }
-
-
-
 
 .goTop {
     position: fixed;
@@ -1400,7 +1249,6 @@ footer .footer-soial {
 .goTop .fa-long-arrow-alt-up {
     color: white;
     font-size: 25px;
-
 }
 
 .goTop:hover {
@@ -1421,26 +1269,17 @@ footer .footer-soial {
     text-align: center;
     cursor: pointer;
     transition: all .5s;
-
 }
-
 
 .whatsUp .fa-whatsapp {
     color: white;
     font-size: 25px;
-
 }
 
 .whatsUp:hover {
     color: white !important;
     transform: scale(1.1) !important;
 }
-
-
-
-
-
-
 
 
 /* maqal */
@@ -1480,34 +1319,15 @@ footer .footer-soial {
     margin-bottom: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 1400px) {
     .container {
         max-width: 1140px
     }
-
-   .navbar .container ,header .container{
+    .navbar .container,
+    header .container {
         max-width: 1320px;
-
     }
-}  
-
-
-
-
-
-
+}
 
 .aboutUs-content {
     direction: ltr;
@@ -1519,15 +1339,13 @@ footer .footer-soial {
     margin-bottom: 100px;
 }
 
-
 .aboutUs-content h2 {
     color: var(--secondClor);
     font-size: 45px;
     font-weight: 700;
     text-align: right;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     position: relative;
-    right: -13%;
 }
 
 .aboutUs-content .about-item h3 {
@@ -1563,16 +1381,12 @@ footer .footer-soial {
     height: 100%;
 }
 
-
-
-
 .aboutUs-content .img-back {
     position: absolute;
     right: 26%;
     bottom: 40%;
     width: 138px;
     z-index: -1;
-
 }
 
 .aboutUs-content .img-back-1 {
@@ -1582,7 +1396,6 @@ footer .footer-soial {
     width: 50px;
     z-index: -1;
 }
-
 
 .aboutUs-content .img-back-2 {
     position: absolute;
@@ -1598,20 +1411,17 @@ footer .footer-soial {
     bottom: 23%;
     width: 80px;
     z-index: -1;
-
 }
 
-
-
-.navbar{
-    transition: all .5s ;
+.navbar {
+    transition: all .5s;
     padding-top: 10px;
 }
 
-.navbar-fixd{
+.navbar-fixd {
     position: fixed !important;
     background: #fff;
-    box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);
+    box-shadow: 0px 13px 35px -12px rgba(35, 35, 35, 0.15);
     animation: menu_sticky 0.60s ease-in-out;
     width: 100%;
     z-index: 5;
@@ -1621,292 +1431,229 @@ footer .footer-soial {
     display: none;
 }
 
-
-
-
-
 @media(max-width:570px) {
-
+    .navbar-brand {
+        height: 73px;
+        width: 40%;
+    }
     .img-back,
     .img-back-1,
     .img-back-2,
     .img-back-3 {
         display: none;
     }
-
-    header{
+    header {
         text-align: center;
         height: 65vh;
     }
-
-    header h1{
+    header h1 {
         font-size: 30px;
-        max-width:100%;
+        max-width: 100%;
     }
-
-
-    header .btns a{
+    header .btns a {
         margin-bottom: 10px;
         width: 170px;
         padding: 10px 20px;
     }
-
-
-
-
-    .whyUs{
+    .whyUs {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-
-
-    .features h2,.whyUsH2,.ourValue h2,.ourValue p,.ourWork h2,
-    .ourClients h2,.blog h2,.contact-form h2{
+    .features h2,
+    .whyUsH2,
+    .ourValue h2,
+    .ourValue p,
+    .ourWork h2,
+    .ourClients h2,
+    .blog h2,
+    .contact-form h2 {
         font-size: 28px;
     }
-
-    .contact h3,.ourWork p,.ourClients p,.features h4{
+    .contact h3,
+    .ourWork p,
+    .ourClients p,
+    .features h4 {
         font-size: 24px;
     }
-
     .whyUs .number-item p,
-    .whyUs .number-item span,.whyUs .number-item p{
+    .whyUs .number-item span,
+    .whyUs .number-item p {
         font-size: 44px;
     }
-    .features{
+    .features {
         margin-bottom: 50px;
         padding-top: 0;
     }
-    .contact p{
+    .contact p {
         margin-bottom: 20px;
     }
-
-    .contact h3{
+    .contact h3 {
         text-align: center;
     }
-
-    .chart1{
+    .chart1 {
         height: 180px;
     }
-
-    .ourWork p{
+    .ourWork p {
         max-width: 90%;
         font-size: 15px;
     }
-
-    .ourClients p{
+    .ourClients p {
         font-size: 15px;
     }
-
-    .contact p{
+    .contact p {
         text-align: center;
     }
-
-    .contact-form p{
+    .contact-form p {
         max-width: 100%;
     }
-
-    .contact-form{
+    .contact-form {
         padding: 10px;
     }
-
-    .contact-form form .form-input{
+    .contact-form form .form-input {
         width: 99%;
     }
-
-    .tab-content .item{
+    .tab-content .item {
         margin-bottom: 5px;
     }
-
-    .nav-pills{
-
-    }
-
-    .nav-pills li{
+    .nav-pills {}
+    .nav-pills li {
         width: 48%;
         display: block;
         margin: .5%;
-        
     }
-
-    .ourWork .nav-pills .nav-link{
+    .ourWork .nav-pills .nav-link {
         /* width: 210px; */
         width: 100%;
         font-size: 12px;
         padding: 10px 20px;
     }
-
-
-    .aboutUs-content h2{
+    .aboutUs-content h2 {
         text-align: center !important;
         right: unset !important;
-
     }
-
-
-    .ourClients{
+    .ourClients {
         margin-top: 80px;
     }
-
-
-    .aboutUs-content .img-box{
+    .aboutUs-content .img-box {
         width: 300px !important;
         margin: auto;
     }
-
-    .aboutUs-content .img-box{
+    .aboutUs-content .img-box {
         width: 200px !important;
         margin: auto;
     }
-
-
-    .aboutUs-content h2,.aboutUs-content .about-item h3{
+    .aboutUs-content h2 {
+        margin-bottom: 60px;
+    }
+    .aboutUs-content h2,
+    .aboutUs-content .about-item h3 {
         font-size: 35px;
     }
-
-    .aboutUs-content .about-item h4,.aboutUs-content .about-item h3{
+    .aboutUs-content .about-item h4 {
         font-size: 30px;
-    }
-
-    .aboutUs-content .about-item h4{
-        font-size: 26px;
-    }
-
-    .innerHeader{
-        margin-right: unset !important;
-    }
-
-    .contact-form .img-box{
         margin-top: 20px;
     }
-
-
-    .aboutUs-content .about-item{
+    .aboutUs-content .about-item h3 {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .aboutUs-content .about-item h4 {
+        font-size: 26px;
+    }
+    .innerHeader {
+        margin-right: unset !important;
+    }
+    .contact-form .img-box {
+        margin-top: 20px;
+    }
+    .aboutUs-content .about-item {
         margin-bottom: 30px;
     }
-
-
-    .whyUs .number-item{
+    .whyUs .number-item {
         margin-bottom: 30px;
     }
-
-
     .maqal-content h2 {
         font-size: 28px;
     }
-
-
-
-
-
-    footer{
+    footer {
         text-align: center;
     }
-
-    footer .footer-soial{
+    footer .footer-soial {
         flex-direction: column;
     }
-
-    footer .footer-img{
+    footer .footer-img {
         width: 160px;
         margin: auto;
         margin-bottom: 15px;
     }
-
-    footer .footer-col p.copyRights{
+    footer .footer-col p.copyRights {
         margin-right: unset;
     }
-
-    footer .footer-col p span{
+    footer .footer-col p span {
         margin-bottom: 15px;
     }
-
-    footer .footer-col p{
+    footer .footer-col p {
         margin-bottom: 20px;
     }
-
-
-    footer .footer-col p span{
+    footer .footer-col p span {
         display: block;
     }
-
 }
 
+@media(max-width:470px) {
+    .navbar-brand {
+        height: 73px;
+        width: 40%;
+    }
+}
 
 @media(max-width:990px) {
-
-    .aboutUs-content h2{
+    .aboutUs-content h2 {
         right: unset !important;
         text-align: center !important;
     }
-
-
     .img-back,
     .img-back-1,
     .img-back-2,
     .img-back-3 {
         display: none;
     }
-
-
-    
-    .innerHeader{
+    .innerHeader {
         margin-right: unset !important;
     }
-
-    .contact-form .img-box{
+    .contact-form .img-box {
         margin-top: 20px;
     }
-
-
-
-    .aboutUs-content .about-item{
+    .aboutUs-content .about-item {
         margin-bottom: 30px;
     }
-
-
-    footer{
+    footer {
         text-align: center;
     }
-
-    footer .footer-soial{
+    footer .footer-soial {
         flex-direction: column;
     }
-
-    footer .footer-img{
+    footer .footer-img {
         width: 160px;
         margin: auto;
         margin-bottom: 15px;
     }
-
-    footer .footer-col p.copyRights{
+    footer .footer-col p.copyRights {
         margin-right: unset;
     }
-
-    footer .footer-col p span{
+    footer .footer-col p span {
         margin-bottom: 15px;
     }
-
-    footer .footer-col p{
+    footer .footer-col p {
         margin-bottom: 20px;
     }
-
-    footer .col-lg-6{
+    footer .col-lg-6 {
         justify-content: center !important;
     }
-
-
-
-    footer .footer-col p span{
+    footer .footer-col p span {
         display: block;
     }
-
-
-
 }
-
-
-
 
 .blog .img-back {
     position: absolute;
@@ -1914,7 +1661,6 @@ footer .footer-soial {
     bottom: -14%;
     width: 200px;
     z-index: -1;
-
 }
 
 .blog .img-back-1 {
@@ -1924,7 +1670,6 @@ footer .footer-soial {
     width: 50px;
     z-index: -1;
 }
-
 
 .blog .img-back-2 {
     position: absolute;
@@ -1940,10 +1685,7 @@ footer .footer-soial {
     bottom: 32%;
     width: 50px;
     z-index: -1;
-
 }
-
-
 
 .maqal-content .img-back {
     position: absolute;
@@ -1951,7 +1693,6 @@ footer .footer-soial {
     bottom: 6%;
     width: 200px;
     z-index: -1;
-
 }
 
 .maqal-content .img-back-1 {
@@ -1961,7 +1702,6 @@ footer .footer-soial {
     width: 50px;
     z-index: -1;
 }
-
 
 .maqal-content .img-back-2 {
     position: absolute;
@@ -1977,29 +1717,27 @@ footer .footer-soial {
     bottom: 32%;
     width: 50px;
     z-index: -1;
-
 }
 
-
-.feat-content{
+.feat-content {
     position: relative;
 }
 
-.feat-content .row{
+.feat-content .row {
     justify-content: center;
 }
 
-.feat-content .img-feat{
+.feat-content .img-feat {
     max-width: 40%;
     margin: 50px auto;
 }
 
-.feat-content .img-feat img{
+.feat-content .img-feat img {
     width: 100%;
     height: 100%;
 }
 
-.feat-content h2{
+.feat-content h2 {
     font-size: 50px;
     font-weight: 700;
     color: #f4b728;
@@ -2007,7 +1745,7 @@ footer .footer-soial {
     text-align: center;
 }
 
-.feat-content p{
+.feat-content p {
     font-size: 20px;
     margin-bottom: 20px;
     line-height: 2;
@@ -2015,44 +1753,43 @@ footer .footer-soial {
     direction: rtl;
 }
 
-.feat-content p.last{
+.feat-content p.last {
     color: #f4b728;
     text-align: center;
     font-size: 22px;
 }
 
-.feat-content .feat-item{
+.feat-content .feat-item {
     text-align: center;
     margin-bottom: 15px;
 }
- 
-.feat-content .feat-item .img-box{
+
+.feat-content .feat-item .img-box {
     width: 80px;
     margin: auto;
     margin-bottom: 0px;
 }
- 
-.feat-content .feat-item .img-box img{
+
+.feat-content .feat-item .img-box img {
     width: 100%;
     height: 100%;
-
 }
 
-.feat-content .feat-item h3{
+.feat-content .feat-item h3 {
     color: #372561;
     font-size: 22px;
     margin-bottom: 10px;
     font-weight: 600;
 }
- 
-.feat-content .feat-item p{
+
+.feat-content .feat-item p {
     font-size: 16px;
     line-height: 23px;
     color: #FFA726;
     text-transform: capitalize;
 }
 
-.feat-content .demand-btn{
+.feat-content .demand-btn {
     padding: 8px 36px;
     border-radius: 30px;
     font-size: 18px;
@@ -2062,9 +1799,7 @@ footer .footer-soial {
     margin: auto;
     width: 180px;
     margin-top: 50px;
-
 }
-
 
 .feat-content .img-back {
     position: absolute;
@@ -2072,7 +1807,6 @@ footer .footer-soial {
     bottom: 56%;
     width: 200px;
     z-index: -1;
-
 }
 
 .feat-content .img-back-1 {
@@ -2082,7 +1816,6 @@ footer .footer-soial {
     width: 50px;
     z-index: -1;
 }
-
 
 .feat-content .img-back-2 {
     position: absolute;
@@ -2098,5 +1831,4 @@ footer .footer-soial {
     bottom: 32%;
     width: 50px;
     z-index: -1;
-
 }
