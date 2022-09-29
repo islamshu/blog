@@ -456,9 +456,9 @@
                         <img src="{{ asset('uploads/' . $item->thumb) }}" alt="" />
                     </div>
                     <div class="item-body">
-                        <h3>{!! Illuminate\Support\Str::limit($item->title, 20) !!} </h3>
+                        <h3>{!! Illuminate\Support\Str::limit($item->title, 40) !!} </h3>
                         <p>
-                            {!! Illuminate\Support\Str::limit($item->description, 50) !!}
+                            {!! Illuminate\Support\Str::limit($item->description, 80) !!}
                         </p>
 
                         <span>{{ \Carbon\Carbon::parse($item->created_at)->format('Y/m/d') }}</span>
