@@ -473,7 +473,7 @@
 
       </div>
 
-      <a href="" class="btn btn-more wow animate__fadeInUp">المزيد</a>
+      <a href="{{ route('fornt.blogs') }}" class="btn btn-more wow animate__fadeInUp">المزيد</a>
     </div>
   </div>
 
