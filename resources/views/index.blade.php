@@ -461,7 +461,7 @@
                         <p>
                             {{-- {!! Illuminate\Support\Str::limit($item->description, 80) !!} --}}
                             
-                            {!! Str::words($item->description, 5, ' ...') !!}
+                            {!! strip_tags(Str::words($item->description, 5, ' ...')) !!}
                         </p>
 
                         <span>{{ \Carbon\Carbon::parse($item->created_at)->format('Y/m/d') }}</span>
