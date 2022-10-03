@@ -454,7 +454,7 @@
             <div class="blog-item wow animate__fadeInUp">
                 <a href="{{ route('blog', $item->id) }}">
                     <div class="img">
-                        <img src="{{ asset('uploads/' . $item->thumb) }}" height="150" alt="" />
+                        <img src="{{ asset('uploads/' . $item->thumb) }}" height="200" alt="" />
                     </div>
                     <div class="item-body">
                         <h3>{!! Illuminate\Support\Str::limit($item->title, 40) !!} </h3>
