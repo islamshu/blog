@@ -447,8 +447,9 @@
     <div class="container">
       <h2 class="wow animate__fadeInUp">المدونة</h2>
       <div class="row">
+        @foreach (App\Models\Blog::orderby('id','desc')->take(3)->get() as $item)
+
         <div class="col-lg-4">
-          @foreach (App\Models\Blog::orderby('id','desc')->take(3)->get() as $item)
 
             <div class="blog-item wow animate__fadeInUp">
                 <a href="{{ route('blog', $item->id) }}">
@@ -465,9 +466,10 @@
                     </div>
                 </a>
             </div>
-            @endforeach
 
         </div>
+        @endforeach
+
       </div>
 
       <a href="" class="btn btn-more wow animate__fadeInUp">المزيد</a>
