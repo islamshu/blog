@@ -7,24 +7,26 @@
         <div class="container">
             <div class="row">
                 @foreach ($blogs as $item)
-                    <div class="col-lg-4">
+                <div class="col-lg-4">
 
-                        <div class="blog-item wow animate__fadeInUp">
-                            <a href="{{ route('blog', $item->id) }}">
-                                <div class="img">
-                                    <img src="{{ asset('uploads/' . $item->thumb) }}" alt="" />
-                                </div>
-                                <div class="item-body">
-                                    <h3>{!! Illuminate\Support\Str::limit($item->title, 40) !!} </h3>
-                                    <p>
-                                        {!! Illuminate\Support\Str::limit($item->description, 80) !!}
-                                    </p>
-
-                                    <span>{{ \Carbon\Carbon::parse($item->created_at)->format('Y/m/d') }}</span>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="blog-item wow animate__fadeInUp">
+                        <a href="{{ route('blog', $item->id) }}">
+                            <div class="img">
+                                <img src="{{ asset('uploads/' . $item->thumb) }}" height="200" alt="" />
+                            </div>
+                            <div class="item-body">
+                                <h3>{!! Illuminate\Support\Str::limit($item->title, 40) !!} </h3>
+                                <p>
+                                    {!! Illuminate\Support\Str::limit(strip_tags($item->description), 80) !!}
+                                    
+                                </p>
+        
+                                <span>{{ \Carbon\Carbon::parse($item->created_at)->format('Y/m/d') }}</span>
+                            </div>
+                        </a>
                     </div>
+        
+                </div>
                 @endforeach
                 <div style="text-align:  center">
                     {{ $blogs->links() }}

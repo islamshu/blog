@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 @section('title')
-{!! $blog->title !!}
+{!! strip_tags($blog->title) !!}
 @endsection
 @section('content')
      <div class="maqal-content wow animate__fadeInUp">
