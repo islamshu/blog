@@ -459,7 +459,8 @@
                     <div class="item-body">
                         <h3>{!! Illuminate\Support\Str::limit($item->title, 40) !!} </h3>
                         <p>
-                            {!! Illuminate\Support\Str::limit($item->description, 80) !!}
+                            {{-- {!! Illuminate\Support\Str::limit($item->description, 80) !!} --}}
+                            {!! Str::words($item->description, 2, ' ...') !!}
                         </p>
 
                         <span>{{ \Carbon\Carbon::parse($item->created_at)->format('Y/m/d') }}</span>
